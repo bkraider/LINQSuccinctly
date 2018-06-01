@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScalarReturnValuesAndOuputSequences_pg13", "LINQSuccintly\ScalarReturnValuesAndOuputSequences_pg13.csproj", "{2AAA3AC9-F6F9-42AA-BEED-A657B400123D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeferredExecution_pg14", "DeferredExecution_pg14\DeferredExecution_pg14.csproj", "{75C9423A-BE9E-4091-86DC-E6C2709F13FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2AAA3AC9-F6F9-42AA-BEED-A657B400123D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AAA3AC9-F6F9-42AA-BEED-A657B400123D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AAA3AC9-F6F9-42AA-BEED-A657B400123D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C9423A-BE9E-4091-86DC-E6C2709F13FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C9423A-BE9E-4091-86DC-E6C2709F13FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C9423A-BE9E-4091-86DC-E6C2709F13FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C9423A-BE9E-4091-86DC-E6C2709F13FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
