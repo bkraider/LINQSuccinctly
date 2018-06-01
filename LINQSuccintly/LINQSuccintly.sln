@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToArrayOperator_pg15", "ToA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalQuery_pg17", "LocalQuery_pg17\LocalQuery_pg17.csproj", "{4569F91B-01FC-42B6-9017-222DB7B7A957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainedFluentStyle_pg18", "ChainedQueryOperator_pg18\ChainedFluentStyle_pg18.csproj", "{DDF172F0-2E6D-4FFD-9C7A-3776DBBEABB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainedQueryStyle_pg21", "ChainedQueryStyle_pg21\ChainedQueryStyle_pg21.csproj", "{A66C6AD9-E340-454A-9518-DE75D4992261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4569F91B-01FC-42B6-9017-222DB7B7A957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4569F91B-01FC-42B6-9017-222DB7B7A957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4569F91B-01FC-42B6-9017-222DB7B7A957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF172F0-2E6D-4FFD-9C7A-3776DBBEABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF172F0-2E6D-4FFD-9C7A-3776DBBEABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF172F0-2E6D-4FFD-9C7A-3776DBBEABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF172F0-2E6D-4FFD-9C7A-3776DBBEABB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66C6AD9-E340-454A-9518-DE75D4992261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66C6AD9-E340-454A-9518-DE75D4992261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66C6AD9-E340-454A-9518-DE75D4992261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66C6AD9-E340-454A-9518-DE75D4992261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
