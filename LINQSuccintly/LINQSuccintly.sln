@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquiJoin_pg25", "EquiJoin_p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupJoin_pg27", "GroupJoin_pg27\GroupJoin_pg27.csproj", "{C4FDA41A-6BBC-4843-86C2-1F72A98C0945}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftJoin_pg28", "LeftJoin_pg28\LeftJoin_pg28.csproj", "{6DAC8152-B988-4E5C-8A62-D38EA1F65618}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C4FDA41A-6BBC-4843-86C2-1F72A98C0945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4FDA41A-6BBC-4843-86C2-1F72A98C0945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4FDA41A-6BBC-4843-86C2-1F72A98C0945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAC8152-B988-4E5C-8A62-D38EA1F65618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAC8152-B988-4E5C-8A62-D38EA1F65618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAC8152-B988-4E5C-8A62-D38EA1F65618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAC8152-B988-4E5C-8A62-D38EA1F65618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
