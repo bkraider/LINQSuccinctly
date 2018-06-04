@@ -54,6 +54,26 @@ namespace LeftJoin_pg28
                 Console.WriteLine("{0} - {1}", item.RecipeName, item.RecipeReview);
             }
 
+
+            // second implementation of the same method
+
+            Console.WriteLine("Different implementation");
+
+            var query2 = from recipe in recipes
+                        join review in reviews on recipe.Id equals review.RecipeId
+                        into reviewgroup
+                        from rg in reviewgroup.DefaultIfEmpty(new Review { ReviewText = "n/a"})
+                        select new // anonymous type 
+                        {
+                            RecipeName = recipe.Name,
+                            RecipeReview = rg.ReviewText
+                        };
+
+            foreach (var item in query2)
+            {
+                Console.WriteLine("{0} - {1}", item.RecipeName, item.RecipeReview);
+            }
+
             Console.ReadLine();
         }
     }
